@@ -11,14 +11,18 @@
     />
   </head>
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="query"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-    </form>
+    <div class="container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+
     <ul class="gallery"></ul>
     <button class="button is-hidden">Load more</button>
   </body>
