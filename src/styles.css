@@ -12,6 +12,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .search-form {
@@ -25,6 +27,8 @@ body {
 .button {
   display: flex;
   margin: 30px auto;
+  padding: 15px 30px;
+  font-size: 16px;
 }
 
 img {
